@@ -44,7 +44,7 @@ const LinkableStringText = {
 }
 
 function LinkableStringCell({ link }: { link: LinkableString | undefined }) {
-	return <TableCell className={`text-base ${typeof link === 'number' ? LinkableStringColor[link] : !link ? 'text-inherit' : LinkableStringColor[link[0] ?? 'undefined']}`}>{typeof link === 'number' ? LinkableStringText[link] : !link ? '-' : <a href={link[1]} className="underline underline-offset-4">{LinkableStringText[link[0] ?? 'undefined']}</a>}</TableCell>
+	return <TableCell className={`text-base ${typeof link === 'number' ? LinkableStringColor[link] : !link ? 'text-inherit' : LinkableStringColor[link[0] ?? 'undefined']}`}>{typeof link === 'number' ? LinkableStringText[link] : !link ? '-' : <a target="_blank" href={link[1]} className="underline underline-offset-4">{LinkableStringText[link[0] ?? 'undefined']}</a>}</TableCell>
 }
 
 export function LibraryRow({ library }: { library: Library }) {

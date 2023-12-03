@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata: Metadata = {
   title: 'Discord API Library Comparisons',
   description: 'By Upsided, originally by Advaith1',
-  icons: ['/favicon.svg']
+  icons: ['/favicon.svg'],
 }
 
 export default function RootLayout({
