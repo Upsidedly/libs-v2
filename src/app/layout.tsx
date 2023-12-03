@@ -6,8 +6,9 @@ import { ThemeProvider } from '~/components/theme-provider'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Libs by Upsided',
-  description: 'Discord API library information',
+  title: 'Discord API Library Comparisons',
+  description: 'By Upsided, originally by Advaith1',
+  icons: ['/favicon.svg']
 }
 
 export default function RootLayout({
