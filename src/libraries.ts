@@ -104,6 +104,28 @@ export const libs: Library[] = [
 		forums: Status.Yes
 	},
 	{
+		name: 'Disqord',
+		url: 'https://github.com/Quahu/Disqord',
+		language: 'C#',
+		apiVer: 10,
+		gwVer: 10,
+		slashCommands: Status.Yes,
+		buttons: Status.Yes,
+		selectMenus: Status.Yes,
+		threads: Status.Yes,
+		guildStickers: Status.Yes,
+		contextMenus: Status.Yes,
+		autocomplete: Status.Yes,
+		scheduledEvents: Status.Yes,
+		timeouts: Status.Yes,
+		modals: Status.Yes,
+		permsv2: Status.Yes,
+		automod: Status.Yes,
+		localization: Status.Yes,
+		forums: Status.Yes,
+		appSubscriptions: Status.No
+	},
+	{
 		name: 'DSharpPlus',
 		url: 'https://github.com/DSharpPlus/DSharpPlus',
 		language: 'C#',
