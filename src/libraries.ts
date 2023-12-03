@@ -659,17 +659,17 @@ export const libs: Library[] = [
 		slashCommands: Status.Yes,
 		buttons: Status.Yes,
 		selectMenus: Status.Yes,
-		threads: [Status.InDev, "https://github.com/Discord4J/Discord4J/issues/958"],
+		threads: Status.Yes,
 		guildStickers: Status.Yes,
 		contextMenus: Status.Yes,
 		autocomplete: Status.Yes,
-		scheduledEvents: [Status.PR, "https://github.com/Discord4J/Discord4J/pull/1046"],
+		scheduledEvents: Status.Yes,
 		timeouts: Status.Yes,
 		modals: Status.Yes,
 		permsv2: Status.No,
-		automod: [Status.PR, "https://github.com/Discord4J/Discord4J/pull/1074"],
+		automod: Status.Yes,
 		localization: Status.No,
-		forums: Status.No
+		forums: Status.Yes
 	},
 	{
 		name: 'Javacord',
