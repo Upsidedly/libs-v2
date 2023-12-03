@@ -11,7 +11,10 @@ Statuses include:
 
 Status.Yes - Does support
 Status.No - Does not support
-Status.Partial - 
+Status.Partial - Partial Support
+Status.PR - Has a PR (best done with an array of Status.PR and the link)
+Status.InDev - Feature is in the development version
+Status.PartialDev - There is partial support in the development version
 
 */
 
