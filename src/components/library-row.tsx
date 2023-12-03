@@ -49,7 +49,7 @@ function LinkableStringCell({ link }: { link: LinkableString | undefined }) {
 
 export function LibraryRow({ library }: { library: Library }) {
 	return <TableRow key={library.name}>
-		<TableCell className='font-bold text-base'><a href={library.url}>{library.name}</a></TableCell>
+		<TableCell className='font-bold text-base'><a href={library.url} target="_blank" className="hover:underline underline-offset-4 decoration-1">{library.name}</a></TableCell>
 		<VersionCell ver={library.apiVer} />
 		<VersionCell ver={library.gwVer} />
 		{/* <TableCell className='text-lg'><a href={library.url}>{library.name}</a></TableCell> */}
