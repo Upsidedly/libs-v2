@@ -20,7 +20,7 @@ const data = [
 ] as const
 
 function VersionCell({ ver }: { ver: version }) {
-	return <TableCell className={`text-base ${typeof ver === 'number' ? ver <= 7 ? 'text-red-600' : ver >= 9 ? 'text-green-600' : 'text-amber-700' : !ver ? 'text-inherit' : ver[1] >= 8 ? 'text-amber-700' : 'text-red-600' }`}>{typeof ver === 'number' ? ver : !ver ? '-' : `${ver[0]} stable, ${ver[1]} dev`}</TableCell>
+	return <TableCell className={`text-base w-[50px] ${typeof ver === 'number' ? ver <= 7 ? 'text-red-600' : ver >= 9 ? 'text-green-600' : 'text-amber-700' : !ver ? 'text-inherit' : ver[1] >= 8 ? 'text-amber-700' : 'text-red-600' }`}>{typeof ver === 'number' ? ver : !ver ? '-' : `${ver[0]} stable, ${ver[1]} dev`}</TableCell>
 }
 
 const LinkableStringColor = {

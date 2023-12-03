@@ -6,7 +6,7 @@ export function LibrariesTable({ children }: { children: any }) {
 	return <Table>
 		<TableHeader>
 			<TableRow>
-				{features.map(feature => <TableHead className="w-[80px] font-semibold text-sm" key={feature}>{feature}</TableHead>)}
+				{features.map(feature => <TableHead className="font-semibold text-sm" key={feature}>{feature}</TableHead>)}
 			</TableRow>
 		</TableHeader>
 		<TableBody>

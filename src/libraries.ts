@@ -770,7 +770,8 @@ export const libs: Library[] = [
 		permsv2: Status.Yes,
 		automod: Status.Yes,
 		localization: Status.Yes,
-		forums: Status.Yes
+		forums: Status.Yes,
+		appSubscriptions: [Status.PR, 'https://github.com/discordjs/discord.js/pull/9907']
 	},
 	{
 		name: 'Discordeno',

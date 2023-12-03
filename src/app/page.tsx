@@ -1,8 +1,6 @@
-import Image from 'next/image'
 import { LibrariesTable } from '~/components/libraries-table'
 import { LibraryRow } from '~/components/library-row'
 import { ModeToggle } from '~/components/mode-toggle'
-import { Table, TableCell, TableHead, TableHeader, TableRow } from '~/components/ui/table'
 import { libs } from '~/libraries'
 
 const languages = [...new Set(libs.map((x) => x.language).sort())]
