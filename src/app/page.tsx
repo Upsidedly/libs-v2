@@ -14,7 +14,7 @@ export default function Home() {
   return (<>
     <Nav searchState={setQuery} />
     <div className='w-full flex justify-center align-center'>
-      <main className="flex min-h-screen flex-col p-24 w-[100%]">
+      <main className="flex min-h-screen flex-col p-4 sm:p-5 md:p-10 lg:p-15 w-[100%]">
         <div className='w-full flex justify-center align-center flex-col'>
           <h1 id="top" className='scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl hover:underline underline-offset-4 decoration-1'><a href='#top'>Discord API Library Comparisons</a></h1>
           <p className='mt-0.5'>By Upsided, Information from <a target='_blank' href="https://libs.advaith.io/" className='text-blue-500 hover:underline underline-offset-4 decoration-1 duration-100'>libs by Advaith</a></p>
